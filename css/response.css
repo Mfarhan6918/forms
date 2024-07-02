@@ -1,0 +1,121 @@
+/* Menu bar area start here */
+
+#header a:hover {
+    background-color: #c0392b;
+}
+
+#header {
+    color: #fff;
+    background-color: #e74c3c;
+}
+
+#logo {
+    font-size: 2rem;
+    margin-top: 5px;
+}
+
+#menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    display: inline-block;
+}
+
+#menu li a {
+    color: #fff;
+    padding: 15px 10px;
+    display: block;
+    text-decoration: none;
+}
+
+/* Menu bar area end here */
+
+/* Banner Area start here */
+
+#banner {
+    background: url('../Images/5.jpg') no-repeat 0 0;
+    background-size: cover;
+}
+
+.banner-title h1 {
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+
+.banner-title p.lead {
+    color: #fff;
+    background: rgba(231, 76, 60, 0.7);
+    padding: 10px;
+}
+
+/* Banner Area end here */
+
+/* Testimonial Area start here */
+
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section h2.section-head{
+    color: black;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section h2.section-head::after{
+    background: #e74c3c;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+
+.service-box{
+    text-align: center;
+}
+
+.service-box i.fa{
+    color: #e74c3c;
+    font-size: 70px;
+    margin-bottom: 50px;    
+}
+
+#testimonials{
+    background: url(../Images/3.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+    color: white;
+}
+
+#testimonials::before{
+    background: rgba(52, 73, 94, 0.9);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+/* Testimonial Area end here */
+#footer-sidebar{
+    background-color: #34495e;
+    color: #fff;
+    padding: 20px;
+}
+.footer-widget h4::after{
+    content: "";
+    background-color: #fff;
+    display: block;
+    width: 50px;
+    height: 3px;
+    margin: 5px 0px;
+}
+#footer{
+    background: #2c3e50;
+    color: white;
+}

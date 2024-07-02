@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn Form using Bootstrap 5</title>
+    <!-- Bootstrap five CSS link link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="wrapper">
+        <div class="container">
+            <div class="col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 text-center">
+                <div class="logo">
+                    <!-- <img src="images/logo.png" alt="logo" class="img-fluid"> -->
+                    
+                    <form action="" class="rounded shadow-lg p-5">
+                        <h3 class="text-light fw-bolder fs-4 mb-2">Sign In H&M</h3>
+                        <div class="fw-normal text-light mb-4">
+                        New Here? <a href="SignUp.html" class="text-info fw-bold">Create an Account</a>
+                        </div>
+                        <div class="mb-3 form-floating">
+                            <input type="email"id="email" class="form-control">
+                            <label for="email">Email Address</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="password" id="password" class="form-control">
+                            <label for="password">Password</label>
+                        </div>
+                        <div class="mt-2 text-end">
+                            <a href="ForgetPassword.html" class="text-info fw-bold">Forget Password</a>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 my-4 submit_btn">Submit</button>
+                        <div class="text-uppercase text-light mb-3">or</div>
+                        <a href="#" class="btn btn-light w-100 mb-3 login_with">
+                            <img src="images/gplus.png" alt="">Continue with Google
+                        </a>
+                        <a href="#" class="btn btn-light w-100 mb-3 login_with">
+                            <img src="images/facebook.png" alt="">Continue with Facebook
+                        </a>
+                        <a href="#" class="btn btn-light w-100 mb-3 login_with">
+                            <img src="images/linkedin.png" alt="">Continue with LinkedIn
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

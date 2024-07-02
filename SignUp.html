@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn Form using Bootstrap 5</title>
+    <!-- Bootstrap five CSS link link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="wrapper">
+        <div class="container">
+            <div class="col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 text-center">
+                <div class="logo">
+                    <!-- <img src="images/logo.png" alt="logo" class="img-fluid"> -->
+                    
+                    <form action="" class="rounded shadow-lg p-5">
+                        <h3 class="text-light fw-bolder fs-4 mb-2">Create an Account</h3>
+                        <div class="fw-normal text-white mb-3">
+                        Already have an account? <a href="SignIn.html" class="text-info fw-bold">Sign in here</a>
+                        </div>
+                        <div class="text-light mb-3">OR</div>
+                        <a href="#" class="btn btn-light w-100 mb-3 login_with">
+                            <img src="images/gplus.png" alt="">Sign In with Google
+                        </a>
+                        <div class="mb-3 form-floating">
+                            <input type="text" id="fname" class="form-control">
+                            <label for="fname">First Name</label>
+                        </div>
+                        <div class="mb-3 form-floating">
+                            <input type="text" id="lname" class="form-control">
+                            <label for="lname">Last Name</label>
+                        </div>
+                        <div class="mb-3 form-floating">
+                            <input type="email"id="email" class="form-control">
+                            <label for="email">Email Address</label>
+                        </div>
+                        <div class=" mb-2 form-floating">
+                            <input type="password" id="password" class="form-control">
+                            <label for="password">Password</label>
+                        </div>
+                        <span class="text-start password_info text-light">Use 8 or more characters with a mix of letters, numbers & symbols</span>
+                        <div class="mb-3 mt-2 form-floating">
+                            <input type="password" id="confirm_password" class="form-control">
+                            <label for="confirm_password">Confirm Password</label>
+                        </div>
+                        <div class="mb-3 form-check d-flex">
+                            <input type="checkbox" id="checkbox-form" class="form-check-input" checked>
+                            <label for="checkbox-form" class="form-check-label ms-2 text-light">I Agree <a href="#" class="text-info">Terms and conditions</a></label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 my-3 submit_btn">Continue</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
